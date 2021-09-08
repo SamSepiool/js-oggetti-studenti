@@ -13,7 +13,7 @@ var studente = {
 
 // stampo tutte le proprietà dell'oggetto tramite ciclo for-in
 for (var key in studente) {
-    console.log(studente[key]);
+    console.log(key);
 }
 
 
