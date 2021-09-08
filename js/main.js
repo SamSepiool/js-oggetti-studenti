@@ -191,7 +191,7 @@ var classe40 = [
 
 // ciclo array oggetti e stampo nome e cognome di ciascuno
 for (var i = 0; i < classe40.length; i++){
-    console.log(classe40[i]['nome'] + classe40[i]['cognome'] );
+    console.log(`${classe40[i]['nome']} - ${classe40[i]['cognome']}`)
 }
 
 
